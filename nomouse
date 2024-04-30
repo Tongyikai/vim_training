@@ -98,3 +98,31 @@ Ctrl + ^ (回到前一個)
 :bf = :bfirst
 :bd = :bdelete (關掉buffer)
 
+/* **************************************************
+ Visual Line and Visual Block
+ ************************************************** */
+ V (大寫V切換到Line模式一次選一整行)
+ Ctrl + v 切換到Visual Block模式(例如在整排最前面+字)
+vw (選取一個字)
+viw (選取一個字游標不用在開頭，但游標會在字內)
+vaw (選取一個字游標不用在開頭，但游標會在字外)
+"release of Letraset"
+vi" (快速選取雙引號裡的字)
+va" (外面的雙引號也選取)
+<title>Document abcdefg 1234579 goole</title>
+vit (選取tag裡面的所有東西)
+vat (選取tag裡面的所有東西,到tag外)
+
+	def smile
+	  puts ":)"
+	end
+
+v} (選取一個段落)
+v{
+
+diw (前面換d 刪除字)
+ciw (刪除字，進去insert模式)
+
+
+
+
