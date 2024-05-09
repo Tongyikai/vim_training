@@ -174,14 +174,68 @@ set cursorline (游標更明顯)
 git 的時候這些.swp檔案要丟到ignore裡去,假設你用cat指令去看,裡面還是有部分資訊
 set noswapfile
 
+set softtabstop=2 (tab鍵=2個空白,預設是8個空白)
+set shiftwidth=2 (按下>,或<,縮排移動2格)
+set expandtab (讓你可以準備把tab轉換成空白,在做:retab指令)
+:retab (tab軟化成空白) 
+set showtabline=2 (開啟一個檔案也會有頁籤出現)
+set splitbelow (:new 開啟一個水平視窗,但會開在底下)
+set splitright (:vnew 開啟一個垂直視窗,但開在右邊)
+set ignorecase (無視大小寫,比如搜尋的時候)
+set incsearch (漸進式搜尋)
+:syntax enable (語法高亮)
+:syntax on (語法高亮)
+:colorscheme (default,darkblue
+
+filetype on (偵測這個檔案是用什麼語言)
+filetype indent on (用那個程式的慣用縮排)
+filetype plugin on
 
 
+/* **************************************************
+ map指令
+ ************************************************** */
+map/nmap/vmap/imap
+:imap a b (按a會顯示b)
+:h key-notation (查詢按鍵的名稱)
 
+用ctrl+c代替yank
+:vmap <C-c> y (vmap代表圈選起來,大寫C = Ctrl,小寫c = c)
 
+用ctrl+v代替p
+:namp <C-v> p
 
+用tab來縮排
+:nmap <Tab> >>
+:vmap <Tab> >>
+:vmap <S-Tab> <
 
+有寫人用jj設定成離開編輯模式
+:imap jj <Esc>
 
+查看map設定
+:map
 
+取消某些map設定
+:unmap
+:vunmap (在視覺模式map,取消設定)
+:mapclear (清除所有的設定)
 
+上下左右關閉
+:nmap <UP> <Nop>
+:imap <UP> <Nop>
 
+無窮迴圈map會出現recursive mapping
+:map a b
+:map b c
+:map c a
+
+:noremap a b (防止無窮迴圈)
+:inoremap a b
+:inoremap b c
+:inoremap c a
+
+leader key \ (加入前綴讓你可以使用它,預設值的leader key = \ )
+:nmap <leader>i >> (讓你擴充key,按下 \ i,就會變縮排)
+:let mapleader = "," (leader key 變成 , )
 
