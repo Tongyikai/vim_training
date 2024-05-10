@@ -239,3 +239,42 @@ leader key \ (加入前綴讓你可以使用它,預設值的leader key = \ )
 :nmap <leader>i >> (讓你擴充key,按下 \ i,就會變縮排)
 :let mapleader = "," (leader key 變成 , )
 
+:set (會顯示你客製化過的設定檔)
+:set all (顯示所有設定)
+
+:colorscheme (按下空白, 再按tab, 可以顯示有哪些可以選擇)
+:colorscheme ctrl+d (顯示列表)
+
+vim 也有 try catch 機制
+----------------------
+try
+  colorscheme darkblu
+catch
+  colorscheme shine
+endtry
+----------------------
+
+:set ruler (可以看到游標在第幾個字)
+:set wrap (預設是打開的,折行 基本上還是同一行)
+:set linebreak (折行以一個word為單位)
+
+:set noshowmode (顯示模式 關閉)
+:set showcmd (顯示敲出的指令)
+
+:set scrolloff=3 (游標距離3行的時候畫面開始捲動)
+
+:set smartcase (搜尋的字有大小寫)
+-----
+Ipsum
+ipSum
+-----
+
+:set list (顯示看不到的字元, tab, 換行符號)
+
+
+
+
+
+
+
+
