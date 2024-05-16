@@ -45,9 +45,9 @@ Ctrl + r, redo下一步
 i, insert模式
 I, insert模式
 a, insert模式
-A, insert模式 
-o, insert模式 
-O, insert模式 
+A, insert模式
+o, insert模式
+O, insert模式
 x, 刪除游標的字元, 也可以選取再x,內容會放到暫存器
 d, 選取之後再d,可以刪除,內容會放到暫存器
 D, 游標之後的那行都刪掉,內容會放到暫存器
@@ -83,7 +83,7 @@ vim -p * 用頁籤的方式開啟
 
 Buffer=資料保存
 Window=展示資料
-Tab=排版佈局 
+Tab=排版佈局
 
 vim file1 file2 file3 (假設開啟3個檔案)
 在裡面輸入 :ls (可以看到開啟了哪些檔案)
@@ -177,7 +177,7 @@ set noswapfile
 set softtabstop=2 (tab鍵=2個空白,預設是8個空白)
 set shiftwidth=2 (按下>,或<,縮排移動2格)
 set expandtab (讓你可以準備把tab轉換成空白,在做:retab指令)
-:retab (tab軟化成空白) 
+:retab (tab軟化成空白)
 set showtabline=2 (開啟一個檔案也會有頁籤出現)
 set splitbelow (:new 開啟一個水平視窗,但會開在底下)
 set splitright (:vnew 開啟一個垂直視窗,但開在右邊)
@@ -271,10 +271,36 @@ ipSum
 
 :set list (顯示看不到的字元, tab, 換行符號)
 
+/* **************************************************
+ 自動命令, 當發生某個事件的時候做什麼事,有點像event listener
+ ************************************************** */
+切換視窗的時候顯示 cursorline, 不在focus的視窗不要cursorline
+:autocmd WinEnter * setlocal cursorline
+:autocmd WinLeave * setlocal nocursorline
+
+刪除每行最後多餘的空白
+:autocmd BufWritePre * :%s/\s\+$//e
+
+按下F5執行程式
+if executable("ruby")
+  autocmd BufRead,BufNewFile *.rb noremap <F5> :% w !ruby -w<Enter>
+else
+  autocmd BufRead,BufNewFile *.rb noremap <F5> :echo "you need to install Ruby"
+endif
+
+----------------------------------------------------------------
+:autocmd BufRead,BufNewFile *.js noremap <F5> :% w !node <Enter>
 
 
+/* **************************************************
+ 整理 vim 設定
+ ************************************************** */
+在~目錄底下 建立一個settings.vim檔案
+在原本~/.vimrc的檔案 source $HOME/settings.vim (外部檔案讀取近來,模組化的概念)
 
+vim有自己的規劃操作,建議在 $HOME/.vim (在HOME底下建立一個.vim目錄)
+:h vimfile (vim的說明)
 
-
-
+.vim/ftplugin/cch.vim (自己隨便建立的cch.vim)
+:set filetype=cch (就會去讀取cch.vim)
 
