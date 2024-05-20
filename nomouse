@@ -304,3 +304,58 @@ vim有自己的規劃操作,建議在 $HOME/.vim (在HOME底下建立一個.vim�
 .vim/ftplugin/cch.vim (自己隨便建立的cch.vim)
 :set filetype=cch (就會去讀取cch.vim)
 
+
+/* **************************************************
+ 外掛, 管理工具
+ ************************************************** */
+Vundle.vim
+vim-pathogen (tpope, vim大佬)
+vim-plug
+vim-ruby
+vim-css-color
+
+打造更順手的vim
+Vim Airline (狀態列)
+https://github.com/vim-airline/vim-airline
+
+~/.vimrc
+call plug#begin()
+  Plug 'vim-airline/vim-airline'
+call plug#end()
+打開一個vim,安裝一下
+cmd: vim
+:PlugInstall
+
+insert模式的時候 airline顯示insert, 底下又還顯示一個--INSERT--
+~/.vimrc
+set noshowmode (關閉顯示)
+
+/* **************************************************
+ 外掛, nerdtree, 左邊可以管理檔案資料夾
+ ************************************************** */
+~/.vimrc
+call plug#begin()
+  Plug 'preservim/nerdtree'
+call plug#end()
+
+:NERDTreeToggle (啟動)
+:NERDTreeToggle (在下一次指令就關掉)
+做個設定檔, F2 可以開啟關閉
+nnoremap (在一般模式下,不要做遞迴對應)
+<silent> (右下角不要秀出命令)
+
+nnoremap <silent> <F2> :NERDTreeToggle<Enter>
+啟動後按下 m 可以操作
+查看目錄下的資料 按 o
+顯示隱藏檔案 大寫I
+往上一層 u
+進入目錄 大寫C
+
+let NERDTreeMinimalUI =1 (最精簡的UI)
+
+離開vim, NERDTree還會留著,官方的操作
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
+
+
+
