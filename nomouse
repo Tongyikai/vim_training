@@ -16,12 +16,12 @@ G
 $, 移到行尾
 gk, 往上一行
 gj, 往下一行
-
 :set hlsearch
 /, 搜尋
 n, 搜尋下一個
 N, 搜尋上一個
 *, 搜尋目前游標的這個字
+:noh (關閉反白)
 :set nohlsearch
 f[x], 往後搜尋同一行最近的x
 F[x], 往前搜尋同一行最近的x
@@ -331,7 +331,7 @@ insert模式的時候 airline顯示insert, 底下又還顯示一個--INSERT--
 set noshowmode (關閉顯示)
 
 /* **************************************************
- 外掛, nerdtree, 左邊可以管理檔案資料夾
+ 外掛, NERDTree, 檔案總管
  ************************************************** */
 ~/.vimrc
 call plug#begin()
@@ -353,9 +353,26 @@ nnoremap <silent> <F2> :NERDTreeToggle<Enter>
 
 let NERDTreeMinimalUI =1 (最精簡的UI)
 
-離開vim, NERDTree還會留著,官方的操作
+離開vim, NERDTree還會留著,離開時也關閉NERDTree官方的操作
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
+
+/* **************************************************
+ 外掛, ctrlp, emmet, surround
+ ************************************************** */
+ctrlp (非常快的找到你要的檔案)
+https://github.com/ctrlpvim/ctrlp.vim
+~/.vimrc 文件新增一個Plug 'ctrlpvim/ctrlp.vim'
+:source % (讀取 %檔案本身)
+:PlugInstall
+ctrl + d (更精確的搜尋)
+
+emmet (開發的時候, 輸入較少的關鍵字,長出一串你要的東西)
+https://github.com/mattn/emmet-vim
+
+surround (處理單引號 雙引號 相當方便)
+https://github/com/tpope/vim-surround
+
 
 
 
