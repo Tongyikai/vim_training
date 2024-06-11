@@ -1,0 +1,45 @@
+" Appearance
+set noshowmode
+set number
+set tabstop=4
+set autoindent
+set mouse=a
+set showtabline=2
+set ruler
+set linebreak
+set hlsearch
+
+" Map
+nnoremap <silent> <F2> :NERDTreeToggle<Enter>
+
+" NERDTree UI
+let NERDTreeMinimalUI=1
+let NERDTreeChDirMode=2
+
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
+
+" Tab And Space
+set shiftwidth=2
+autocmd BufWritePre * :%s/\s\+$//e
+
+" Color
+syntax on
+
+" Filetype
+filetype on
+filetype indent on
+filetype plugin on
+
+" Plugins
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+call plug#end()
+
+" Powerline
+let g:airline_powerline_fonts=1
+
+" Smarter Tab Line
+"let g:airline#extensions#tabline#enabled=1
