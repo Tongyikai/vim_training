@@ -1,0 +1,31 @@
+/* **************************************************
+ * Unit1	                                    *
+ ************************************************** */
+My family is large
+My family are all early risers
+
+Harry and Bill's father is a scientist
+Harry's and Bill's fathers are scientist
+
+the legs of the table
+the door of the car
+the doors of a car
+the girl's name/the name of the girl
+
+/* **************************************************
+ * Unit2                                            *
+ ************************************************** */
+He is not a good basebll player
+He's
+He isn't
+
+Is the girl a junior high school student?
+
+Are you eating your lunch?
+Yes, I am/No, I am not
+
+The twin brothers do not go to school by bus
+Sam does not have dinner at the restaurant
+
+Do you visit your grandmother on Sundays?
+Dose he come from England?
