@@ -122,7 +122,8 @@ We had a heavy rain yesterday
 You don't see many Chinese there
 They speak English in Canada
 
-Your house is bigger than my house/mine
+Your house is bigger than my house
+=> Your house is bigger than mine
 My bicycles are here and his are there
 
 I met one of my old friends on the way home
@@ -166,4 +167,58 @@ Some of the boys like English
 Some boys like English
 
 I have lost my watch and I have to buy one ( a watch )
+I like small cars better than large ones
+
+Here are some apples. Take one
+I bought a good camera. I'll lend it to you
+
+Both of her children went to New York
+I've read both these papers
+All of my money was stolen
+You may take all these toys 
+=> You may take them all
+
+I do not know both of her parents
+=> I know just one of her parents
+Not all of them come from England
+=> Just some of them come from England
+
+Do you know either of the visitors?
+{ I don't like both hats
+{ I like neither of the hats
+
+Bill didn't come to my party, and Ken didn't, either
+Bill didn't come to my party, and neither did Ken
+
+Some of the boys were late
+Some of my money was stolen from my purse
+Please lend me some money if you have any
+Do you have any magazines to read?
+
+Will you give me some help?
+How about some tea?
+
+I have two students one is short, the other is tall
+I have three flowers
+{ one is red; the others are yellow
+{ one is red; another is yellow; the other is pink
+I don't like this one; show me { another
+                               { the other
+Some of the boys are here, but where are the others?
+Some people said yes and others said no
+
+None of the telephone is/are working
+Several of my friends attended the meeting
+Most of it is true
+Most of the people know it
+
+Who got the most New Year's cards?
+She is the most beautiful girl that I've ever seen
+
+
+
+/* **************************************************
+ * Unit5                                            *
+ ************************************************** */
+
 
