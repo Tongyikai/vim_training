@@ -120,3 +120,67 @@ To see is to believe
 He told me to quit/to give up smoking
 She got her husband to clean up the house
 
+他要求我不要跟他說實話
+He asked me not to tell her the truth
+他沒要求我跟她說實話
+He didn't ask me to tell her the truth
+
+I have letters to write
+我媽媽每天有很多家事要做
+My mother has a lot of housework to do everyday
+
+I'll give you something to eat
+你有什麼東西可讀嗎?
+Do you have anything to read?
+
+They have a lot of things to talk about
+Please give me a ball-point pen to write with
+
+She went to London { to study English
+                   { in order to study English
+
+Come ( and ) see me
+I am glad to see you
+我們聽到這消息很難過
+We are sorry to hear the news
+
+Which way to go is a big problem
+I know how to operate the machine
+He told me where to take the bus
+
+You are too young to understand the  whole thing
+The water is too hot for me to drink
+他工作得太慢無法完成這件事
+He worked too slowly to finish it
+
+My younger brother is old enough to go to school
+Bob 夠用功可以通過考試
+Bob worked hard enough to pass the exam
+
+
+
+/* **************************************************
+ * Unit3 動名詞                                     *
+ ************************************************** */
+Do it right now
+Doing/To do it right now is important
+
+一天睡8小時有益健康
+Sleeping/To sleep eight hours a day is good for health
+=> It is good for health to sleep eight hours a day
+在海邊游泳很好玩
+Swimming/To swin at the beach is a lot of fun
+=> It is a lot of fun to swim at the beach
+It's no use crying over spilt milk
+
+You have to give up smoking
+I like watching basketball games on TV
+I like to watch basketball games on TV
+
+They began dancing/to dance faster and faster
+
+{ The man stopped talking
+{ The man stopped to talk to a newsboy
+I'm tired. I have to stop { working
+                          { to take a rest
+I have to stop working to take a rest
