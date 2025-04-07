@@ -1,0 +1,35 @@
+set number
+set clipboard=unnamed
+set hlsearch
+set noswapfile
+set ignorecase
+
+" 只要部分關鍵字就有搜尋效果
+set incsearch
+
+" 解決插入模式,不能刪除的問題
+set backspace=indent,eol,start
+
+" 只要有任何分頁都會秀出來
+set showtabline=2
+
+" 顯示目前游標所在地的狀態
+set ruler
+
+" 剩下n行就開始捲動
+set scrolloff=1
+
+" 設定如果文字太多的話自動折行
+set wrap
+
+" 在比較適當的地方換行
+set linebreak
+
+" 設定在左下角顯示現在模式
+set showmode
+
+" 顯示敲打了什麼指令
+set showcmd
+
+" 比較聰明的搜尋
+set smartcase
