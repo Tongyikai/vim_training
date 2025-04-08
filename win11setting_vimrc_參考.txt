@@ -3,6 +3,7 @@ set clipboard=unnamed
 set hlsearch
 set noswapfile
 set ignorecase
+"set cursorline
 
 " 只要部分關鍵字就有搜尋效果
 set incsearch
@@ -33,3 +34,6 @@ set showcmd
 
 " 比較聰明的搜尋
 set smartcase
+
+"刪除最後一行的空白, set list 可以看到$字號代表空白
+autocmd BufWritePre * :%s/\s\+$//e

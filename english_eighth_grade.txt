@@ -241,3 +241,28 @@ I finish doing my homework
 I can't help feeling worried about his health
 I apologize for not keeping my promise
 
+
+
+/* **************************************************
+ * Unit4 分詞                                       *
+ ************************************************** */
+The girl is talking with Joe
+The girl having long hair is Mary
+walk-walked-walked
+bite-bit-bitten
+David has just used the pen
+This is the pen used by David
+The pen was used by David
+
+Don't wake the sleeping baby
+The rising sun is very beautiful
+
+I saw { a man working in the garden
+      { a girl playing the piano on the stage
+      { a child sleeping on the grass
+
+I found the lost pen
+=> I found the pen lost by Tom
+She bought a used car
+=> I bought that car used by Tom
+
