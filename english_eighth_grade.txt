@@ -266,3 +266,122 @@ I found the lost pen
 She bought a used car
 => I bought that car used by Tom
 
+boiling water -> 沸騰的水
+boiled water -> 煮開的水
+
+the risen sun
+the rising sun
+a faded flower
+a retired teacher
+
+This is a picture painted about 200 year ago
+We have some story books written in easy English
+
+坐在中間的女士是Bob的母親
+The woman sitting in the middle is Bob's mother
+等公車中的有些人變得很生氣
+Some of the people waiting for the bus became angry
+
+我認識在公園跑步的男孩
+I know the boy running in the park
+你有任何住在日本的朋友嗎?
+Do you have any friends living in Japen?
+
+地鐵是在地下行駛的鐵路
+The subway is the railway running under the ground
+護士是照顧病人的人
+A nurse is a person taking care of sick people
+
+美國說的語言是英語
+The language spoken in America is English
+
+我看了許多在墾丁拍的照片
+I looked at a lot of picture taken in Kenting
+
+這是為她做的洋裝
+This is a dress made for her
+
+畫這幅畫的女孩是我姊
+The girl drawing the picture is my sister
+這幅我姊姊所畫的畫不錯
+The picture drawn by my sister is nice
+
+He kept standing for three hours
+那隻狗整晚叫不停
+The dog kept barking all night
+
+The children came running to meet us
+Jack站著看猴子
+Jack stood looking at monkeys
+
+I saw her crossing the road
+I saw her cross the road
+Don't leave her waiting oustide in the rain
+
+I could not make myself understood in English
+She heard her name called
+I had my hair cut
+
+Tom's hobby is painting
+I am painting
+
+
+
+/* **************************************************
+ * Unit5 形容詞                                     *
+ ************************************************** */
+He is old and sick
+Mark became hungry after two hours work
+Sea water tastes salty
+
+a useful book
+physical education
+
+an expensive gold watch
+this red silk tie
+five tall strong Korean boys
+a few useful oblong black boxes
+
+{ 一件重要的事=> an important thing
+{ 某件重要的事=> something important
+
+He eats nothing sweet
+Something terrible is about to happen
+
+國民, 某國的, 語言, 全國人民
+China, Chinese, Chinese, the Chinese
+Japan, Japanese, Japanese, the Japanese
+Korea, Korean, Korean, the Koreans
+France, French, French, the French
+Germany, German, German, the Germans
+Spain, Spanish, Spanish, the Spanish
+
+a lot of
+lots of
+businessman
+
+他考試犯了許多錯誤嗎
+Did he make many mistakes on the test?
+瓶子裡有許多酒嗎
+Is there much wine in the bottle?
+
+There were a few(some) children in the yard at that time
+I gave her a little trouble
+
+He is a man of few words
+There is little hope of his recovery
+
+He collects some foreign stamps
+There is not any tea in the cup
+
+Would you like some wine?
+May I have some more coffee?
+
+He has one hundred kinds of stamps
+Hundreds of children gathered in the playground
+
+She is in her twenties/teens
+There was an antiwar movement in the nineteen-sixties
+
+It's only a ten-minute walk from here to the station
+The young man married a 70-year-old woman
